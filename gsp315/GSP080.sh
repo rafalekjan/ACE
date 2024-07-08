@@ -31,9 +31,9 @@ gcloud projects add-iam-policy-binding $PROJECT_ID \
 --member="serviceAccount:$PROJECT_ID@appspot.gserviceaccount.com" \
 --role="roles/artifactregistry.reader"
 gcloud functions deploy helloWorld \
-  --stage-bucket $PROJECT_ID \
-  --trigger-topic hello_world \
-  --runtime nodejs20
+--stage-bucket $PROJECT_ID \
+--trigger-topic hello_world \
+--runtime nodejs20
 gcloud functions describe helloWorld
 
 # Task 4. Test the function
