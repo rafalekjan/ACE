@@ -1,7 +1,6 @@
-# GSP342
+# GSP321
 # Develop your Google Cloud Network: Challenge Lab
 # https://raw.githubusercontent.com/quiccklabs/Labs_solutions/master/Develop your Google Cloud Network Challenge Lab/quicklabgsp321.sh
-
 
 
 export REGION="${ZONE%-*}"
